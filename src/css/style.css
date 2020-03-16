@@ -1,0 +1,18 @@
+body{
+  font-family: 'Dancing Script', cursive;
+  background-image: url('https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+  background-size: cover;
+
+}
+label,p{
+  font-size: 25px;
+}
+input[type="text"],.textarea {
+  background-color:inherit;
+  font-size: 30px;
+}
+
+input[type="text"],.textarea:focus {
+  background-color:inherit;
+  color: white;
+}

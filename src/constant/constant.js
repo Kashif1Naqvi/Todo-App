@@ -1,0 +1,5 @@
+export const ALL_POSTS = 'ALL_POSTS'
+export const ADD_POSTS = 'ADD_POSTS'
+export const DELETE_POSTS = 'DELETE_POSTS'
+export const UPDATE_POST = 'UPDATE_POST'
+export const EDIT_POST    ='EDIT_POST'

@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React,{Component} from 'react'
+import Create from './Components/Create'
+import AllPosts from './Components/AllPosts'
+class App extends Component{
+  render(){
+    return(
+      <div className="container mt-5" >
+        <h1 className="text-center font-weight-bold text-info " >React Redux Crud Application</h1>
+        <div className="row" >
+          <div className="col-12" >
+            <Create />
+          </div>
+          <div className="col-12" >
+            <AllPosts />
+          </div>
+        </div>
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
